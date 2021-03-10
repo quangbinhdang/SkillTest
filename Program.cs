@@ -22,6 +22,8 @@ namespace SkillTest
             furnitureList.Add(toothbrush);
             furnitureList.Add(toothpick);
 
+            furnitureList.Sort();
+
             foreach (Furniture f in furnitureList)
             {
                 Console.WriteLine("Item : " + f.Name);
