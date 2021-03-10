@@ -15,13 +15,18 @@ namespace SkillTest
             Furniture toothpick = new Furniture("Toothpick");
 
             ArrayList furnitureList = new ArrayList();
-
             furnitureList.Add(chair);
             furnitureList.Add(table);
             furnitureList.Add(laptop);
             furnitureList.Add(television);
             furnitureList.Add(toothbrush);
             furnitureList.Add(toothpick);
+
+            foreach (Furniture f in furnitureList)
+            {
+                Console.WriteLine("Item : " + f.Name);
+            }
+            
         }
     }
 }
